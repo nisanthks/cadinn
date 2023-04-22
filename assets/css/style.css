@@ -3848,7 +3848,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
 .banner.style-1 .carousel.slide .carousel-inner .carousel-item .slider-content .slider-content-inner h2 {
   font-size: 30px;
   line-height: 36px;
-  color: #5d9913;
+  color: #fc6c8c;
   margin: 11px auto 0px;
   opacity: 0;
   margin-left: -100%;
@@ -3869,7 +3869,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
   transition: 0.7s;
   margin: 13px auto 30px;
   font-size: 24px;
-  color: #5d9913;
+  color: #fc6c8c;
 }
 @media (min-width: 768px) {
   .banner.style-1 .carousel.slide .carousel-inner .carousel-item .slider-content .slider-content-inner p {
