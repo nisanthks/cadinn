@@ -1153,7 +1153,7 @@ a:hover {
 5. Hero Style
 ----------------------------------------------------------------*/
 .st-hero-slide.st-style1 {
-    height: 820px;
+    height: 620px;                  /*820 - nks*/
     background-color: #f9fbff;
     position: relative;
     overflow: hidden;
@@ -1192,7 +1192,7 @@ a:hover {
 }
 
 .st-hero-text.st-style1 h1 {
-    font-size: 60px;
+    font-size: 50px;            /*60 - nks*/
     margin-bottom: 15px;
 }
 
