@@ -265,7 +265,8 @@
           nav:true,
           dots:true,
           navText:['<i class="flaticon-left"></i>', '<i class="flaticon-right"></i>'],
-          autoplay:false,
+          autoplay:true, /*false - nks*/
+          autoplayHoverPause:true,
           smartSpeed:1000,
           autoplayTimeout:5000,
           responsive:{

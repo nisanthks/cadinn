@@ -69,6 +69,7 @@ h6 {
     margin: 0 0 10px 0;
     font-weight: 500;
     line-height: 1.2em;
+    -webkit-text-stroke: 0.5px midnightblue;
 }
 
 h1 {
@@ -204,7 +205,7 @@ a:hover {
 }
 
 .row>[class*="col-"] {
-    margin-top: 30px;
+    /* margin-top: 30px; NKS */
 }
 
 .st-gray-bg {
@@ -1177,7 +1178,7 @@ a:hover {
 .st-hero-slide.st-style1 .st-hero-img,
 .st-hero-slide.st-style2 .st-hero-img {
     position: absolute;
-    left: 62.5%;
+    left: 0%;    /*62.5 - nks*/
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1193,6 +1194,7 @@ a:hover {
 
 .st-hero-text.st-style1 h1 {
     font-size: 50px;            /*60 - nks*/
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 
@@ -1211,6 +1213,7 @@ a:hover {
     line-height: 1.6em;
     margin-bottom: 40px;
     font-weight: 300;
+    -webkit-text-stroke: .3px black;
 }
 
 .st-hero-text.st-style1 {
@@ -1241,7 +1244,7 @@ a:hover {
 }
 
 .owl-carousel.st-hero-slider1 .active .st-hero-text.st-style1 {
-    top: 0px;
+    top: 40px;      /*40 - nks*/
     opacity: 1;
 }
 
@@ -1262,8 +1265,8 @@ a:hover {
 }
 
 .owl-carousel.st-hero-slider1 .active .st-hero-slide.st-style1 .st-hero-img {
-    top: 50%;
-    opacity: 1;
+    top: 60%;   /*50 - nks*/
+    opacity: 1; /*1 - nks*/
 }
 
 .st-video-btn {
@@ -2111,7 +2114,7 @@ a:hover {
     color: #666;
     font-weight: 300;
     margin-bottom: 0;
-    margin-top: -3px;
+    margin-top: 3px;   /*NKS*/
 }
 
 .st-section-heading.st-style1 h2 {
@@ -3015,7 +3018,7 @@ a:hover {
 .st-price-card {
     -webkit-box-shadow: 0px 5px 10px 0px rgba(106, 106, 106, 0.15);
     box-shadow: 0px 5px 10px 0px rgba(106, 106, 106, 0.15);
-    padding: 40px 20px;
+    padding: 20px 20px; /*NKS*/
     -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: -webkit-transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -o-transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -3036,7 +3039,7 @@ a:hover {
 .st-price-card-title {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px;    nks */
 }
 
 .st-price {
@@ -3326,7 +3329,7 @@ a:hover {
     }
 
     .st-hero-text.st-style1 h1 {
-        font-size: 42px;
+        font-size: 32px;    /*42 - nks*/
     }
 
     .st-hero-text.st-style1 .st-hero-subtitle {
@@ -3342,7 +3345,7 @@ a:hover {
     }
 
     .st-hero-slide.st-style1 {
-        height: 600px;
+        height: 500px;  /*600 - nks*/
     }
 
     .owl-carousel.st-owl-controler2 .owl-nav {
